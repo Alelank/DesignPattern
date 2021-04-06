@@ -14,6 +14,7 @@ public class WelcomeController extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         System.out.println("请求进入...");
+        System.out.println("master ... ");
         resp.sendRedirect("index.jsp");
     }
 }
