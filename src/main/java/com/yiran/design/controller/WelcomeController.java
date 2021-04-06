@@ -16,6 +16,6 @@ public class WelcomeController extends HttpServlet {
         System.out.println("请求进入...");
         System.out.println("master ... ");
         resp.sendRedirect("index.jsp");
-        System.out.println("dev1 update");
+        System.out.println("dev1 update --- ");
     }
 }
